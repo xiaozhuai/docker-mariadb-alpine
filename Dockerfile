@@ -11,4 +11,4 @@ VOLUME /data
 
 ENV MYSQL_ROOT_PASSWORD password
 
-ENTRYPOINT /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]
