@@ -9,6 +9,6 @@ COPY entrypoint.sh /entrypoint.sh
 EXPOSE 3306
 VOLUME /data
 
-ENV MYSQL_ROOT_PASSWORD password
+ENV MYSQL_ROOT_PASSWORD="password"
 
 ENTRYPOINT ["/entrypoint.sh"]
